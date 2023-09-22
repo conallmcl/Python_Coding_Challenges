@@ -13,3 +13,5 @@ end_range = 1150
 
 count = doorNumbers(start_range, end_range) #calls the doorNumbers function with the specified range and gets the count of digits specified
 print(f"Number of doors containing the digits 6 and 9 in the range of 1 to 1150: {count}") #prints the result, showing how many numbers contain the specified digit in the specified range
+
+#Result = 590. Both 6 and 9's equal 295 needed for the total number of rooms, therefore 590 would be needed for both
