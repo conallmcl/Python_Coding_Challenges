@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="static\css\style.css">
+    <title>Weather App</title>
 </head>
 <body>
 
-    <p>The Weather</p>
-    <div>
-        <img src="" alt="">
-        <div>
-            <span id = "location">
-
-            </span>
-            <span id = "temp">
-
-            </span>
-            <span id = "datetime">
-
-            </span>
-        </div>
+<div class="card">
+    <div class="search">
+        <input type="text" placeholder="Enter City Name" spellcheck="false">
+        <button onclick="runSearch()"><img src="static\img\weather-app-icons\search.gif" alt=Search-Icon></button>
     </div>
-    <script src="static\js\weather.js">
-    </script>
+    <div class="weather">
+        <div class= "image-container"> <img src="static\img\weather-app-icons\Clear.png" class="weather-icon">
+    </div>
+        <h1 class="temp"></h1>
+        <h2 class="city"></h2>
+    </div>
+</div>
+
+<script src="static\js\weather.js"></script>
 </body>
 </html>
